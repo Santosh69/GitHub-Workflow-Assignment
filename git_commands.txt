@@ -1,0 +1,83 @@
+GIT COMMAND DOCUMENTATION
+Git & GitHub Workflow Assignment
+
+1. git config user.name Santosh69
+   Sets the author name for commits in the current repository.
+
+2. git config user.email santoshpalaka69@gmail.com
+   Sets the author email for commits in the current repository.
+
+3. git init -b main
+   Initializes a new Git repository with main as the initial branch.
+
+4. git add index.html about.html
+   Stages the HTML files for the initial commit.
+
+5. git add index.html
+   Stages changes made to the home page.
+
+6. git commit -m "Initial commit: Add HTML project files"
+   Creates the initial commit containing the HTML files.
+
+7. git commit -m "Update home page content"
+   Saves the second commit containing the home page modification.
+
+8. git branch feature
+   Creates a new branch named feature.
+
+9. git switch feature
+   Switches the working branch to feature.
+
+10. git add about.html
+    Stages the changes made to the about page.
+
+11. git commit -m "Add feature section to about page"
+    Creates a commit containing the feature branch changes.
+
+12. git switch main
+    Switches the working branch back to main.
+
+13. git merge feature
+    Merges the feature branch into main.
+
+14. git log --oneline --graph --decorate --all
+    Displays the commit history with branch and merge information.
+
+15. git status
+    Displays the current repository and working tree status.
+
+16. git status --short --ignored
+    Displays a compact status including ignored files and folders.
+
+17. git add .gitignore
+    Stages the .gitignore configuration file.
+
+18. git commit -m "Add gitignore configuration"
+    Saves the .gitignore configuration in Git history.
+
+19. git revert --no-edit HEAD
+    Creates a new commit that reverses the latest commit.
+
+20. git remote add origin URL
+    Connects the local repository to a remote repository.
+
+21. git remote -v
+    Displays the configured remote repository URLs.
+
+22. git push -u origin main
+    Pushes the main branch and establishes upstream tracking.
+
+23. git push -u origin feature
+    Pushes the feature branch and establishes upstream tracking.
+
+24. git branch -a
+    Lists local and remote branches.
+
+25. git add git_commands.txt
+    Stages the Git command documentation file.
+
+26. git commit -m "Add Git command documentation"
+    Creates a commit containing the command documentation.
+
+27. git push origin main
+    Pushes the latest main branch commit to GitHub.
